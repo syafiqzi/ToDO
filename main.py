@@ -57,14 +57,14 @@ def uncross_item():
     pass
 
 #create some button
-delete_button =Button(button_frame, text = "lalala", command= delete_item)
+delete_button =Button(button_frame, text = "Delete", command= delete_item)
 add_button =Button(button_frame, text = "Add", command= add_item)
-cross_off_button =Button(button_frame, text = "Cross Off Item", command= cross_off_item)
-uncross_button =Button(button_frame, text = "Uncross", command= uncross_item)
+#cross_off_button =Button(button_frame, text = "Cross Off Item", command= cross_off_item)
+#uncross_button =Button(button_frame, text = "Uncross", command= uncross_item)
 
 add_button.grid(row=0, column=0)
 delete_button.grid(row=0, column=1, padx=20 )
-cross_off_button.grid(row=0, column=2)
-uncross_button.grid(row=0, column=3, padx=20)
+#cross_off_button.grid(row=0, column=2)
+#uncross_button.grid(row=0, column=3, padx=20)
 
 root.mainloop()
